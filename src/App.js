@@ -122,8 +122,8 @@ function App() {
           <Route path="/emissions">
             <FoodEmission token={token}/>
           </Route>
-          <Route path="/carbon-map">
-            <GetMap />
+          <Route path="/map">
+            <MapBox />
           </Route>
           </UserNameProvider>
           </EmissionProvider>
