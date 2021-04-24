@@ -106,6 +106,9 @@ const handleLED = (e) => {
             Total CO2 Emissions saved: {totalOffset}
             </span>
         <div style={{maxHeight: "300px", overflow:"hidden auto"}}>
+            <Box fontWeight="fontWeightBold" fontSize="h6.fontSize" letterSpacing={2} style={{color:'#2E4089', paddingTop:20}}>
+                Total CO2 Emissions saved: {totalOffset}
+            </Box>
             <table className="take-action" style={{backgroundColor: "#B4E6CD", width:'100%'}}>
                 <thead>
                     <tr>

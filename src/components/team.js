@@ -46,7 +46,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Team() {
   const classes = useStyles();
-
   return (
     <React.Fragment>
       <CssBaseline />
